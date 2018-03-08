@@ -5,11 +5,11 @@ var counter  = 0;
 button.onclick = function(){
     //coonecting it to the end point
     
-    //storing it in a variable and rendering it
+    // capture the response storing it in a variable and rendering it
     
     
     //printing it in our span tag on clicking
     counter = counter + 1;
     var span = document.getElementById('count');
-    span.innerHTML = count.toString();
+    span.innerHTML = counter.toString();
 }
